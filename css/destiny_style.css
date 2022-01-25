@@ -1,0 +1,79 @@
+body{
+    font-size: 14px;
+    padding-top: 60px;
+}
+
+.pageBody{
+    display: block;
+    position: relative;
+    min-height: 500px;
+    margin-bottom: 10px;
+  }
+
+.navbar{
+    padding: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 44%, rgba(0,212,255,1) 100%);
+    /* box-shadow: 0 3px 6px 0px #888; */
+    box-shadow: 0 3px 5px -1px rgb(0 0 0 / 20%), 0 6px 10px 0 rgb(0 0 0 / 14%), 0 1px 18px 0 rgb(0 0 0 / 12%);
+    /* background: #3f51b5; */
+}
+
+.siteFooter {
+    padding: 15px 0;
+    color: #fff;
+    width: 100%;
+    display: block;
+    background-image: linear-gradient(139deg, #fb8817,#ff4b01,#c12127, #e02aff);
+}
+
+h1{
+    font-size: 32px !important;
+    color: #0c77d5;
+    /* color: #f3c848; */
+    text-shadow: 0 2px 3px rgb(0 0 0 / 30%);
+}
+
+h2{
+    font-size: 26px !important;
+    color: #5606d0;
+}
+
+h3{
+    font-size: 22px !important;
+    color: #e40781;
+}
+
+h4{
+    font-size: 18px !important;
+    color: rgba(2,0,36,1);
+}
+
+h5{
+    font-size: 16px !important;
+    color: #055965;
+}
+
+h6{
+    font-size: 14px !important;
+    color: #0528ce;
+}
+
+.social-icon {
+    display: block;
+    float: right;
+}
+
+.social-icon ul {
+    margin-bottom: 0;
+}
+
+.social-icon ul li {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.social-icon ul li a i {
+    font-size: 28px;
+    color: #fff;
+}
